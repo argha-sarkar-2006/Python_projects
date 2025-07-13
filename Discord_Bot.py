@@ -1,7 +1,7 @@
-app_id = 1392020928585662504
+app_id = "Your_Discord_app_id_here"  # Replace with your actual app ID
 public_key = "Your_DDiscord_public_key_here"  # Replace with your actual public key
 token  = "Your_token_here"  # Replace with your actual token
-link = "https://discord.com/channels/1392019736761733232/1392019737676087309"
+link = "Bot_channel_link"
 import discord
 from gpt4all import GPT4All
 model = GPT4All("orca-mini-3b-gguf2-q4_0.gguf")

@@ -1,6 +1,6 @@
 app_id = 1392020928585662504
-public_key = "a475445277dc757dd3460a5f2661966b044cbd8dff3ae040813dc6ff74c19eb5"
-token  = "MTM5MjAyMDkyODU4NTY2MjUwNA.GZR9QY.-l5Qdny-vR9R4YHJhwIicD8MeX0a4f6Us-otN4"
+public_key = "Your_DDiscord_public_key_here"  # Replace with your actual public key
+token  = "Your_token_here"  # Replace with your actual token
 link = "https://discord.com/channels/1392019736761733232/1392019737676087309"
 import discord
 from gpt4all import GPT4All

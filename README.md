@@ -1,7 +1,7 @@
 <img align ="center" src="https://user-images.githubusercontent.com/6434778/42911228-b93031b2-8b1c-11e8-8930-5592b84c5e54.gif">
-<p><img alt="Night Coding" src="https://cdn.vectorstock.com/i/500p/41/17/abstract-cyber-hacker-vector-50654117.jpg" width="100" align ="left"></p><h2>Hey there! I’m Argha Sarkar</h2><p></p>
+<p align="center"><picture align="center"><img align="left" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px"></picture></p>
 
-<h3 id="-about-me">👨🏻‍💻 &nbsp;About Me</h3>
+<h3 id="-about-me">  &nbsp; Hey There! 👋 I'm Argha</h3><br>
 <p>💡 &nbsp;I like to explore new technologies and develop software solutions and quick hacks.<br>
 🎓 &nbsp;I’m currently A Drop student but capable to handle all kind of problems in real world<br>
 🌱 &nbsp;I’m on track for learning more about Artificial Intelligence, Data Structures, and Other Frame works.<br>

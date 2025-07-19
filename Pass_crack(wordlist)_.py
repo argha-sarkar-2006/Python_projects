@@ -1,8 +1,20 @@
 from PyPDF2 import PdfReader
 import os 
 import requests
-url = "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"  # Replace with actual URL
-
+url_1 = "https://gitlab.com/kalilinux/packages/seclists/-/raw/kali/master/Passwords/Common-Credentials/10-million-password-list-top-10000.txt?inline=false"
+url_2= "https://gitlab.com/kalilinux/packages/seclists/-/raw/kali/master/Passwords/Common-Credentials/10-million-password-list-top-1000000.txt?inline=false"  
+url_3 = "https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt"
+print("intencity 1 : 10000 Combination of Password\nintencity 2 : 1-Million Combination of Password \nintencity 3 : 30-Million Combination of Password\nonly enter the intencity number like 1,2,3")
+intencity = int(input("Enter the intencity of the attack : "))
+if intencity == 1:
+    url = url_1
+    print("Intencity 1 Selected")
+elif intencity == 2:
+    url = url_2
+    print("Intencity 2 Selected")
+elif intencity == 3:
+    url = url_3
+    print("Intencity 3 Selected")
 try:
     # Use a non-routable IP address to simulate "no network"
     requests.get("https://www.google.com", timeout=3)
@@ -52,6 +64,7 @@ def crack_pdf(pdf_path, password_list_path):
             continue
 
     print("[X] Password not found in list.")
+    print("Please Select Higher Intencity")
     return None
 
 crack_pdf(pdf_path, password_list_path)

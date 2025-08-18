@@ -1,9 +1,7 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
-from dotenv import load_dotenv
 import os
-load_dotenv(dotenv_path="secrets.env")
 import os
 def clear_screen():
     """Clear the console screen"""

@@ -1,7 +1,9 @@
 import smtplib
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+from dotenv import load_dotenv
 import os
+load_dotenv(dotenv_path="secrets.env")
 import os
 def clear_screen():
     """Clear the console screen"""
@@ -11,11 +13,11 @@ print("***********************************************\n*                       
 print("********* Welcome To Mail Automation **********")
 print("*                                             *\n***********************************************\n")
 # ---- CONFIGURE THIS ----
-sender_email = "Your Email"  # Replace with your email
-sender_password = "generate app password"  # Replace with your app password
-receiver_email = "reciver mail"
+sender_email = os.getenv("Mail")  
+sender_password = os.getenv("Gmail_app_pass")  
+receiver_email = os.getenv("mail_2")
 subject = "This is a Automated Email"
-receiver_name = "sender_name"  # Replace with the actual receiver's name
+receiver_name = "Rudranil Dey"
 # -------------------------
 print("Check your email for the automation result.\n")
 print("Sending email to:", receiver_email)

@@ -23,7 +23,7 @@ path = input("Enter the path of the file (text/docx/pdf): ").strip()
 if not os.path.exists(path):
     print("File does not exist. Please check the path and try again.")
     exit()
-name = input("Enter the name of the output image file (default is 'Handwriting.png'): ").strip()
+name = input("Enter the name of the output image file (default is 'Handwriting.png' ): ").strip()
 if not name:
     name = "Handwriting.png"
 location = input("Enter the location to save the image (default is current directory): ").strip()

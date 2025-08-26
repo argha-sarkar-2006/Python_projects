@@ -2,7 +2,7 @@
 <img align ="top" src="https://raw.githubusercontent.com/Dark-Cyber-07/Dark-Cyber-07/main/106824690-8dd73a00-66ad-11eb-89e2-53e13ac6f594.gif" width= "5000px" height ="300px" ><br>
 <p align="center"><picture align="center"><img align="left" src="https://github.com/7oSkaaa/7oSkaaa/blob/main/Images/about_me.gif?raw=true" width="50px"></picture></p>
 
-<h3 id="-about-me">  &nbsp; Top Python Python </h3><br>
+<h3 id="-about-me">  &nbsp; Top Python Automation Projects </h3><br>
 <p>💡 &nbsp;Creative and Simple Projects Like You Never see Before<br>
 🎓 &nbsp;User Based Api key , Defined where To Place the Variable <br>
 🌱 &nbsp;Simple And Ready To Use Code Using Langchain <br>
